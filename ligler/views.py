@@ -7,7 +7,7 @@ from operator import add
 
 
 # Create your views here.
-def ligler_view(request,a):#ana sayfamızın
+def ligler_view(request):#ana sayfamızın
 	oyuncular1 = Oyuncu.objects.order_by("toplam_gol_sayısı")
 	oyuncular2 = Oyuncu.objects.order_by("toplam_asist_sayısı")
 	print(oyuncular1)
