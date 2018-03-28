@@ -13,5 +13,4 @@ urlpatterns = [
 #url içerisinde verilen name.lere url metoduyla html dosyaları içerisinden ulaşabiliriz.
 ]
 
-
-##3
+	
