@@ -95,7 +95,7 @@ class Comment(models.Model):
 	
 	def get_unique_name(self):
 		name=self.name
-		unique_name = self.name
+		name = slugify(self.name.replace('ı','i'))
 		counter = 1
 		
 		while Comment.objects.filter(name = unique_name).exists():
