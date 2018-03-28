@@ -14,4 +14,6 @@ klup/migrations/*
 
 ligler/migrations/*
 !ligler/migrations/__init__.py
+media/
+staticfiles/
 
