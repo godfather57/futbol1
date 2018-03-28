@@ -141,7 +141,7 @@ def sosyal_detail(request,slug):#ana sayfamızın
 		comment.save()
 		
 		print(comment)
-		return redirect("homee:home")
+		return render(request,"sdetail.html",context)
 	
 	sosyaller=SosyalMedia.objects.filter(isim=sosyal.isim).exclude(slug=slug)
 	
